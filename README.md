@@ -1,6 +1,6 @@
 # WOT(Web of Trust)application for Delay Tolerant Networks
 
-This is a code for a demo (publication)[2] in ACM Information Centric Networking Conference in Paris[1] in 2014.
+This is a code for a demo (publication)[2] which was accepted in ACM Information Centric Networking Conference in Paris[1] in 2014.
 This application shows a demonstration , that how can people estimate the trustworthiness of the message , using web of trust in delay tolerant scenarios using different parameters. The details of the algorithms and parameter are mentioned in the publication[2].
 
 **Problems**
