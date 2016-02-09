@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context="com.example.xc.MainActivity" >
+
+  
+    
+     <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="30sp"
+		android:textColor="#F00"
+        android:text="@string/heading" 
+        android:textStyle="normal">
+      </TextView>
+     
+      <TextView
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+		android:textColor="#F00"
+        android:text="@string/heading2" 
+        android:textStyle="normal">
+      </TextView>
+       
+         
+         <TextView
+        android:id="@+id/nodeview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="23sp"
+		android:textColor="#F00"
+        android:text="@string/nodeview" 
+        android:textStyle="normal">
+      </TextView>
+         
+         
+         <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/nodes_prompt" />
+    
+     
+       <TextView
+        android:id="@+id/trustview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="23sp"
+		android:textColor="#F00"
+        android:text="@string/trustview" 
+        android:textStyle="normal">
+      </TextView>
+    
+    <RadioGroup
+android:id="@+id/RadioGroup01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+>
+<RadioButton
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="20sp"
+android:text="@string/basic"
+android:id="@+id/basic"
+>
+</RadioButton>
+<RadioButton
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/disjunct"
+android:text="@string/disjunct"
+android:textSize="20sp"
+>
+</RadioButton>
+</RadioGroup>
+
+      <TextView
+        android:id="@+id/parameterview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:textSize="23sp"
+		android:textColor="#F00"
+        android:text="@string/parameter" 
+        android:textStyle="normal">
+      </TextView>
+    
+    <EditText
+        android:id="@+id/path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/path" >
+
+           <requestFocus />
+    </EditText>
+    
+      <EditText
+        android:id="@+id/minpath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/minpath" >
+
+           <requestFocus />
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_calculate"
+        android:onClick="calculateTrust"/>
+
+</LinearLayout>

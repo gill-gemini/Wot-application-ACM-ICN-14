@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wot</string>
+    <string name="nodeview">Select No of Nodes</string>
+    <string name="sample">Enter Sample Size</string>
+    <string name="path">Enter Max Path Length</string>
+    <string name="minpath">Enter Min number of disjunct paths</string>
+    <string name="button_calculate">Calculate Trust Metrics</string>
+    <string name="trustview">Choose Trust Metric</string>
+    <string name="basic">BasicPathLengthThreshold</string>
+    <string name="disjunct">DisjunctPath</string>
+    <string name="parameter">Parameters for Trust Metric</string>
+    <string name="heading">Decentralized Message Authentication Scheme for ICN in Disaster Scenarios</string>
+    <string name="heading2">Trust Computation based on Web of Trust</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">DisplayTrustMetrics</string>
+    
+	<string name="nodes_prompt">Choose the Number of Nodes(Wot File)</string>
+    <string-array name="country_arrays">
+        <item>10000</item>
+        <item>20000</item>
+        <item>50000</item>
+        <item>80000</item>
+        <item>100000</item>
+    </string-array>
+    
+    
+    
+</resources>
