@@ -9,6 +9,7 @@ This application shows a demonstration , that how can people estimate the trustw
 
 
 **Images from Android Application**
+<img src="https://cloud.githubusercontent.com/assets/1822240/12904499/93b5de94-ced8-11e5-869d-79801ae151ca.png" width="300">
 ![mainview](https://cloud.githubusercontent.com/assets/1822240/12904499/93b5de94-ced8-11e5-869d-79801ae151ca.png)
 **Main View of the application**
 
