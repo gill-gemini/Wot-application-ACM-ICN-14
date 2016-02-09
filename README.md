@@ -20,7 +20,7 @@ This application shows a demonstration , that how can people estimate the trustw
 
 [1] http://conferences2.sigcomm.org/acm-icn/2014/
 
-[2]`http://dl.acm.org/citation.cfm?id=2660130`
+[2]http://dl.acm.org/citation.cfm?id=2660130
 
 [3]http://stackoverflow.com/questions/25641786/java-lang-nullpointerexception-while-using-jar-file-of-a-java-project-in-android
 
