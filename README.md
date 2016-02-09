@@ -18,7 +18,7 @@ This application shows a demonstration , that how can people estimate the trustw
 **Checking trustworthiness of a message k hops away**
 
 
-[1]` http://conferences2.sigcomm.org/acm-icn/2014/`
+[1] http://conferences2.sigcomm.org/acm-icn/2014/
 
 [2]`http://dl.acm.org/citation.cfm?id=2660130`
 
